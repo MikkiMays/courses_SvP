@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="svp.ENTERController">
+   <children>
+      <ImageView fitHeight="110.0" fitWidth="180.0" layoutX="277.0" layoutY="50.0">
+         <image>
+            <Image url="@logo4kfullhd.png" />
+         </image>
+      </ImageView>
+      <PasswordField fx:id="passwordAuto" layoutX="247.0" layoutY="287.0" prefHeight="31.0" prefWidth="238.0" promptText="Пароль" />
+      <TextField fx:id="loginAuto" layoutX="246.0" layoutY="243.0" prefHeight="31.0" prefWidth="238.0" promptText="Логин" />
+      <Text fill="#000000a6" layoutX="268.0" layoutY="209.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="Авторизация" wrappingWidth="197.00001022219658">
+         <font>
+            <Font name="Georgia" size="32.0" />
+         </font>
+      </Text>
+      <Button fx:id="enterAuto" layoutX="317.0" layoutY="340.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="100.0" text="Войти" textFill="#000000c2">
+         <font>
+            <Font name="Georgia" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="enterRegist" layoutX="473.0" layoutY="437.0" mnemonicParsing="false" text="Зарегестрироваться">
+         <font>
+            <Font name="Georgia" size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

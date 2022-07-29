@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="svp.SCIENCEController">
+   <children>
+      <ImageView fx:id="logoHome" fitHeight="100.0" fitWidth="150.0" layoutX="559.0" layoutY="14.0">
+         <image>
+            <Image url="@logo4kfullhd.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="63.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Естественные науки">
+         <font>
+            <Font name="Georgia Italic" size="45.0" />
+         </font>
+      </Text>
+      <Text layoutX="322.0" layoutY="379.0" strokeType="OUTSIDE" strokeWidth="0.0" text="География" wrappingWidth="90.95801308751106">
+         <font>
+            <Font name="Georgia" size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="559.0" layoutY="379.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Физика" wrappingWidth="90.9580078125">
+         <font>
+            <Font name="Georgia" size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="103.0" layoutY="379.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Биология" wrappingWidth="101.95801308751106">
+         <font>
+            <Font name="Georgia" size="17.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="sccBio" fitHeight="187.0" fitWidth="325.0" layoutX="-22.0" layoutY="157.0">
+         <image>
+            <Image url="@../science/Биология.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sccGeo" fitHeight="198.0" fitWidth="325.0" layoutX="205.0" layoutY="165.0">
+         <image>
+            <Image url="@../science/Географ.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sccPhis" fitHeight="215.0" fitWidth="325.0" layoutX="430.0" layoutY="157.0">
+         <image>
+            <Image url="@../science/Физика.png" />
+         </image>
+      </ImageView>
+      <Line endX="100.0" layoutX="100.0" layoutY="115.0" startX="-100.0" />
+      <Line endX="100.0" layoutX="25.0" layoutY="126.0" startX="-100.0" />
+   </children>
+</AnchorPane>

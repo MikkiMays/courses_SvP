@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="svp.MARKETController">
+   <children>
+      <ImageView fx:id="logoHome" fitHeight="100.0" fitWidth="150.0" layoutX="559.0" layoutY="14.0">
+         <image>
+            <Image url="@logo4kfullhd.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="63.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Маркетинг">
+         <font>
+            <Font name="Georgia Italic" size="45.0" />
+         </font>
+      </Text>
+      <Text layoutX="82.0" layoutY="379.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PR - менеджер">
+         <font>
+            <Font name="Georgia" size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="329.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Реклама" wrappingWidth="75.95799970626831">
+         <font>
+            <Font name="Georgia" size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="547.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Web - маркетинг" wrappingWidth="90.9580078125">
+         <font>
+            <Font name="Georgia" size="17.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="marketAds" fitHeight="233.0" fitWidth="335.0" layoutX="199.0" layoutY="134.0">
+         <image>
+            <Image url="@../market/Реклама.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="marketPR" fitHeight="195.0" fitWidth="308.0" layoutY="153.0" smooth="false">
+         <image>
+            <Image url="@../market/PR.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="marketWeb" fitHeight="195.0" fitWidth="308.0" layoutX="438.0" layoutY="153.0">
+         <image>
+            <Image url="@../market/веб%20маркетинг.png" />
+         </image>
+      </ImageView>
+      <Line endX="100.0" layoutX="100.0" layoutY="115.0" startX="-100.0" />
+      <Line endX="100.0" layoutX="25.0" layoutY="126.0" startX="-100.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="svp.DESIGNController">
+   <children>
+      <ImageView fx:id="logoHome" fitHeight="100.0" fitWidth="150.0" layoutX="559.0" layoutY="14.0">
+         <image>
+            <Image url="@logo4kfullhd.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="63.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Дизайн">
+         <font>
+            <Font name="Georgia Italic" size="45.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="designInter" fitHeight="172.0" fitWidth="262.0" layoutX="447.0" layoutY="153.0">
+         <image>
+            <Image url="@../design/Дизайнер%20интерьера.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="designWeb" fitHeight="181.0" fitWidth="287.0" layoutX="14.0" layoutY="160.0">
+         <image>
+            <Image url="@../design/Веб%20дизайнер.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="designGraf" fitHeight="181.0" fitWidth="304.0" layoutX="221.0" layoutY="148.0">
+         <image>
+            <Image url="@../design/Графический%20дизайнер.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="88.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Web - дизайн">
+         <font>
+            <Font name="Georgia" size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="278.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Графический дизайн" wrappingWidth="190.9579997062683">
+         <font>
+            <Font name="Georgia" size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="533.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Дизайн интерьера" wrappingWidth="90.9580078125">
+         <font>
+            <Font name="Georgia" size="17.0" />
+         </font>
+      </Text>
+      <Line endX="100.0" layoutX="100.0" layoutY="115.0" startX="-100.0" />
+      <Line endX="100.0" layoutX="25.0" layoutY="126.0" startX="-100.0" />
+   </children>
+</AnchorPane>

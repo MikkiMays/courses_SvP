@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="svp.KABINETController">
+   <children>
+      <Pane fx:id="paneNonRec" layoutX="136.0" layoutY="250.0" prefHeight="200.0" prefWidth="417.0">
+         <children>
+            <Text layoutX="100.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Рекомендации">
+               <font>
+                  <Font name="Georgia Italic" size="32.0" />
+               </font>
+            </Text>
+            <Button fx:id="createRec" layoutX="127.0" layoutY="100.0" mnemonicParsing="false" text="Создать рекомендации" />
+         </children>
+      </Pane>
+      <ImageView fx:id="logoHome" fitHeight="100.0" fitWidth="150.0" layoutX="559.0" layoutY="14.0">
+         <image>
+            <Image url="@logo4kfullhd.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="59.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Личный кабинет">
+         <font>
+            <Font name="Georgia Italic" size="45.0" />
+         </font>
+      </Text>
+      <Text layoutX="83.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Имя:" underline="true">
+         <font>
+            <Font name="Georgia" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="83.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Фамилия:" underline="true">
+         <font>
+            <Font name="Georgia" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="nameLK" layoutX="136.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="nam">
+         <font>
+            <Font name="Georgia" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="surnameLK" layoutX="183.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="fam">
+         <font>
+            <Font name="Georgia" size="20.0" />
+         </font>
+      </Text>
+      <MenuButton layoutX="428.0" layoutY="143.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="238.0" text="Мои курсы">
+        <items>
+          <MenuItem fx:id="designgraph" mnemonicParsing="false" text="Графический дизайн" visible="false" />
+          <MenuItem fx:id="designinter" mnemonicParsing="false" text="Дизайн интерьера" visible="false" />
+            <MenuItem fx:id="designweb" mnemonicParsing="false" text="Web - дизайн" visible="false" />
+            <MenuItem fx:id="langchi" mnemonicParsing="false" text="Китайский язык" visible="false" />
+            <MenuItem fx:id="langeng" mnemonicParsing="false" text="Английский язык" visible="false" />
+            <MenuItem fx:id="langspa" mnemonicParsing="false" text="Испанский язык" visible="false" />
+            <MenuItem fx:id="marketads" mnemonicParsing="false" text="Интернет - реклама" visible="false" />
+            <MenuItem fx:id="marketpr" mnemonicParsing="false" text="PR - менеджер" visible="false" />
+            <MenuItem fx:id="marketweb" mnemonicParsing="false" text="Web - маркетинг" visible="false" />
+            <MenuItem fx:id="networkmontage" mnemonicParsing="false" text="Видео - монтаж" visible="false" />
+            <MenuItem fx:id="networksmm" mnemonicParsing="false" text="SMM продвижение" visible="false" />
+            <MenuItem fx:id="progc" mnemonicParsing="false" text="Программирование на C++" visible="false" />
+            <MenuItem fx:id="progjava" mnemonicParsing="false" text="Программирование на Java" visible="false" />
+            <MenuItem fx:id="progpython" mnemonicParsing="false" text="Программирование на Python" visible="false" />
+            <MenuItem fx:id="sciebio" mnemonicParsing="false" text="Биология" visible="false" />
+            <MenuItem fx:id="sciegeo" mnemonicParsing="false" text="География" visible="false" />
+            <MenuItem fx:id="sciephys" mnemonicParsing="false" text="Физика" visible="false" />
+        </items>
+      </MenuButton>
+      <Line endX="100.0" layoutX="99.0" layoutY="108.0" startX="-100.0" />
+      <Line endX="100.0" layoutX="24.0" layoutY="119.0" startX="-100.0" />
+      <Pane fx:id="panealreadyRec" layoutX="47.0" layoutY="235.0" prefHeight="231.0" prefWidth="627.0">
+         <children>
+            <Text layoutX="177.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Мы рекомендуем:">
+               <font>
+                  <Font name="Georgia Italic" size="32.0" />
+               </font>
+            </Text>
+            <MenuButton layoutX="195.0" layoutY="88.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="238.0" text="Рекомендуем">
+               <items>
+                  <MenuItem fx:id="designgraph1" mnemonicParsing="false" text="Графический дизайн" visible="false" />
+                  <MenuItem fx:id="designinter1" mnemonicParsing="false" text="Дизайн интерьера" visible="false" />
+                  <MenuItem fx:id="designweb1" mnemonicParsing="false" text="Web - дизайн" visible="false" />
+                  <MenuItem fx:id="langchi1" mnemonicParsing="false" text="Китайский язык" visible="false" />
+                  <MenuItem fx:id="langeng1" mnemonicParsing="false" text="Английский язык" visible="false" />
+                  <MenuItem fx:id="langspa1" mnemonicParsing="false" text="Испанский язык" visible="false" />
+                  <MenuItem fx:id="marketads1" mnemonicParsing="false" text="Интернет - реклама" visible="false" />
+                  <MenuItem fx:id="marketpr1" mnemonicParsing="false" text="PR - менеджер" visible="false" />
+                  <MenuItem fx:id="marketweb1" mnemonicParsing="false" text="Web - маркетинг" visible="false" />
+                  <MenuItem fx:id="networkmontage1" mnemonicParsing="false" text="Видео - монтаж" visible="false" />
+                  <MenuItem fx:id="networksmm1" mnemonicParsing="false" text="SMM продвижение" visible="false" />
+                  <MenuItem fx:id="progc1" mnemonicParsing="false" text="Программирование на C++" visible="false" />
+                  <MenuItem fx:id="progjava1" mnemonicParsing="false" text="Программирование на Java" visible="false" />
+                  <MenuItem fx:id="progpython1" mnemonicParsing="false" text="Программирование на Python" visible="false" />
+                  <MenuItem fx:id="sciebio1" mnemonicParsing="false" text="Биология" visible="false" />
+                  <MenuItem fx:id="sciegeo1" mnemonicParsing="false" text="География" visible="false" />
+                  <MenuItem fx:id="sciephys1" mnemonicParsing="false" text="Физика" visible="false" />
+               </items>
+            </MenuButton>
+         </children>
+      </Pane>
+      <Button fx:id="logOut" layoutX="625.0" layoutY="443.0" mnemonicParsing="false" text="Выход" />
+   </children>
+</AnchorPane>
